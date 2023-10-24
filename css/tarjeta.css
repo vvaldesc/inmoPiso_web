@@ -1,0 +1,57 @@
+.main__art{
+    width: 300px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #4f0926;
+
+}
+
+.article__div--bGround1,.article__div--bGround2,.article__div--bGround3,
+.article__div--bGround4,.article__div--bGround5,.article__div--bGround6{
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+}
+
+.article__div--bGround1{
+    background-image: url("../assets/img/habitaciones/maxresdefault.jpg");
+}
+
+.article__div--bGround2{
+    background-image: url("../assets/img/habitaciones/istockphoto-1312439845-612x612.jpg");
+}
+
+.article__div--bGround3{
+    background-image: url("../assets/img/habitaciones/pexels-jean-van-der-meulen-1457842.jpg");
+}
+
+.article__div--bGround4{
+    background-image: url("../assets/img/habitaciones/depositphotos_102673046-stock-photo-wall-art-background.jpg");
+}
+
+.article__div--bGround5{
+    background-image: url("../assets/img/habitaciones/dual-tone.jpg");
+}
+
+.article__div--bGround6{
+    background-image: url("../assets/img/habitaciones/image.webp");
+}
+
+.art__btn{
+    display: block;
+    height: 40px;
+    width: 50%;
+    background-color: #722702;
+    border-radius: 25px;
+
+}
+
+.art__p{
+    text-align: center;
+    color: aliceblue;
+    position: relative;
+    bottom: 7px;
+}

@@ -1,0 +1,31 @@
+
+h2{
+    margin-top: 0;
+}
+
+.container__main--inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 180px;
+}
+
+.container__h1--inicio{
+    margin-top: 30px;
+    font-size: 2.3em;
+}
+
+
+.gif,.gif2{
+    position: relative;
+    bottom: 90px;
+    left: 95px;
+    width: 45px;
+}
+
+.gif2{
+    bottom: 40px;
+    left: 172px;
+}
+
+

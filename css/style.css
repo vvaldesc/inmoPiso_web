@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+.container__div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container__main{
+    margin-top: 820px;
+    width: 100%;
+    background-color: #f8efec;
+    box-shadow: 0px 0px 50px 10px#f8efec91;
+    justify-content: space-around;
+    display: flex;
+    padding-right: 30px;
+    padding-left: 30px;
+    flex-wrap: wrap;
+    padding-top: 10px;    
+
+}
+
+.body__container,.body__container--inicio{
+    margin: auto;
+    max-width: 1100px;
+    min-width: 500px;
+}
+
+.body__container{
+    margin: auto;
+    max-width: 1100px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__h1,.container__h1Titulo,.container__h2,.container__p{
+    margin-top: 30px;
+    font-size: 2.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__h1Titulo{
+    color: #4f0926;
+    font-size: 4.7em;
+}
+
+.container__h1Titulo:hover{
+    font-size: 4.9em;
+    transition: 500ms;
+}
+
+.container__h2{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.main__section{
+    width: 500px;
+}
+
+.main--div__flexIzq{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.container__p{
+    font-size: 1.3em;
+    text-align: center;
+    font-family: 'Source Serif Pro 5';
+    margin-left: 20%;
+}
+
+.textoAnimado--h2,.textoAnimado--h1{
+    margin: 0px;
+    text-decoration: none;
+    height: 80px;
+    transition: 500ms;
+    transition: 10ms;
+}
+
+.textoAnimado--h2{
+    height: 50px;
+    transition: 500ms;
+
+}
+
+.textoAnimado--h2:hover{
+    transition: 500ms;
+    font-size: 1.6em;
+}
+
+.textoAnimado--h1:hover{
+    font-size: 2.4em;
+    transition: 500ms;
+}
+
+
+
+body{
+    background-color: #f8efec;
+    font-family: 'Playfair Display', serif;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.body__src{
+    position: absolute;
+    min-width: 1600px;
+    max-width: 1800px;
+    width: 100%;
+    top: 0%;
+    z-index: -10;
+}
+
+.div__button--scrol{
+    margin-top: 50px;
+    height: 70px;
+}
+
+

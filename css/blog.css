@@ -1,0 +1,37 @@
+.container__main--blog{
+    margin-top: 790px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.main__art--blog{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #4f0926;
+    height: 500px;
+}
+
+.article__div--bGBlog1,.article__div--bGBlog2,.article__div--bGBlog3{
+    background-size: cover;
+    margin-top: 30px;
+    width: 500px;
+    height: 300px;
+    background-image: url("../assets/img/blog/descargar.jpg");
+}
+
+.article__div--bGBlog2{
+
+    background-image: url("../assets/img/habitaciones/images\ \(2\).jpg");
+}
+
+.article__div--bGBlog3{
+
+    background-image: url("../assets/img/blog/img_6448.jpg");
+}

@@ -1,0 +1,39 @@
+header{
+margin: 0%;
+padding: 0;
+margin-bottom: 20px;
+
+}
+
+/*clase para el menu horizontal*/
+.cabecera_nav{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    height: 50px;
+
+}
+
+/*clase para los botones del menu*/
+.cabecera_a{
+    height: 24px;
+    max-width: 200px;
+    width: 15%;
+    min-width: 120px;
+    margin: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 300ms;
+    font-size: 1.1em;
+    color: #5c0907;
+
+}
+
+.cabecera_a:hover{
+    transition: 500ms;
+    font-size: 1.2em;
+    text-decoration: underline 2px;
+}
